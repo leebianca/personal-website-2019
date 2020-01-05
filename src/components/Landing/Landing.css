@@ -1,0 +1,72 @@
+.container {
+  width: 90%;
+  display: flex;
+}
+
+.text {
+  display: inline-block;
+  padding-left: 5%;
+  width: 80%;
+}
+
+.icon {
+  margin-right: 10%;
+  display: inline-block;
+  align-content: center;
+  padding-right: 20px;
+  height: 50%;
+  width: 50%;
+}
+
+.icon-background {
+  position: absolute;
+  top: 27%;
+  left: 650px;
+  width: 42%;
+  z-index: -1;
+}
+
+.icon-body {
+  position: absolute;
+  width: 18%;
+  top: 35%;
+  left: 850px;
+}
+
+/* .icon-body {
+    position: relative;
+    width: 53%;
+    top: 180px;
+    left: 140px;
+    margin-left: auto;
+    margin-right: auto;
+  } */
+
+.laptop {
+  position: absolute;
+  width: 12%;
+  top: 60%;
+  left: 780px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.translate {
+  animation: translate 3s infinite;
+}
+
+@keyframes translate {
+  0%,
+  100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+  40% {
+    -webkit-transform: translateY(-15px);
+    transform: translateY(-15px);
+  }
+  60% {
+    -webkit-transform: translateY(-15px);
+    transform: translateY(-15px);
+  }
+}

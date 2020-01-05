@@ -1,0 +1,61 @@
+@import url("https://fonts.googleapis.com/css?family=Lora|Montserrat:800");
+
+.getintouch {
+  font-family: GoogleSans-Regular, sans-serif;
+  text-align: center;
+  font-weight: 300;
+  font-size: 18px;
+  margin-top: 40px;
+  color: rgb(179, 179, 179);
+}
+
+.footer-name {
+  text-align: center;
+  font-family: BrandonGrotesque-Black, sans-serif;
+  font-size: 24px;
+  color: #ffc37a;
+  margin-bottom: 15px;
+}
+
+.footer-description {
+  text-align: center;
+  font-family: GoogleSans-Regular, sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  color: gray;
+}
+
+.email-container {
+  text-align: center;
+  margin-bottom: 70px;
+}
+
+.email {
+  font-family: GoogleSans-Bold, sans-serif;
+  text-align: center;
+  font-weight: 300;
+  font-size: 17px;
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+}
+
+.email:hover {
+  color: #ffc37a;
+}
+
+.links {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.link {
+  width: 25px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.link:hover {
+  opacity: 0.5;
+}

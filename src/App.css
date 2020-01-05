@@ -1,0 +1,165 @@
+@import url("https://fonts.googleapis.com/css?family=Lora|Montserrat:400,700,800");
+
+.App {
+  padding-top: 50px;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.Landing-page {
+  display: absolute;
+  text-align: center;
+}
+
+.Navigation {
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+  top: 0;
+  z-index: 100;
+  margin-top: 50px;
+  margin-left: 75%;
+}
+
+.navbar {
+  position: absolute;
+  width: 100%;
+  height: 30%;
+  z-index: 100;
+  top: 0;
+  left: 0;
+}
+
+.dots {
+  width: 400px;
+  position: absolute;
+  z-index: -100;
+  top: 60px;
+  left: 150px;
+}
+
+.arrow {
+  display: block;
+  margin: 110px auto;
+  width: 30px;
+  text-align: center;
+}
+
+.top {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.bounce {
+  animation: bounce 3s infinite;
+}
+
+@keyframes bounce {
+  0%,
+  20%,
+  50%,
+  80%,
+  100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+  40% {
+    -webkit-transform: translateY(-30px);
+    transform: translateY(-30px);
+  }
+  60% {
+    -webkit-transform: translateY(-15px);
+    transform: translateY(-15px);
+  }
+}
+
+.bianca {
+  text-align: left;
+  margin-left: 5%;
+  /* margin-top: 50px; */
+  font-family: BrandonGrotesque-Black, sans-serif;
+  font-weight: 900;
+  font-style: normal;
+  font-size: 38px;
+  color: #ffc37a;
+}
+
+.bianca:hover {
+  color: #ffd4a0;
+}
+
+.Hello {
+  display: block;
+  margin-top: 160px;
+  padding-left: 12%;
+  text-align: left;
+  font-family: BrandonGrotesque-Black, sans-serif;
+  font-weight: 900;
+  font-style: normal;
+  font-size: 65px;
+  color: #ffb29d;
+}
+
+.intro {
+  display: block;
+  margin-left: 12%;
+  text-align: left;
+  font-family: GoogleSans-Regular, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 18px;
+  width: 60%;
+  color: black;
+}
+
+.button-wrapper {
+  margin-left: 11%;
+  text-align: left;
+}
+
+.button {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #0085b6;
+  font-size: 16px;
+  background-color: white;
+  border: #0085b6 2px solid;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 8px;
+  text-decoration: none;
+}
+
+/* .button:hover {
+  color: white;
+  background-color:rgb(255, 103, 103);
+} */
+
+.button:focus {
+  outline: none;
+}
+.Projects {
+  position: inline-block;
+  margin-top: 50px;
+  margin-bottom: 100px;
+}
+
+.Footer {
+  margin-top: 25px;
+  margin-bottom: 100px;
+}
+
+.Footer-link {
+  margin: 50px;
+}

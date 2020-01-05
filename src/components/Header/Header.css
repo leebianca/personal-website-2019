@@ -1,0 +1,47 @@
+@import url("https://fonts.googleapis.com/css?family=Lora|Montserrat:800");
+
+.links-container {
+  display: flex;
+  flex-direction: row;
+  padding-right: 50px;
+}
+
+.Header-link-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: baseline;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.Header-link-container:hover {
+  background-color: #eaf7f9;
+  font-family: "GoogleSans-Bold", sans-serif;
+  border-radius: 7px;
+}
+
+.Header-link:hover {
+  font-family: "GoogleSans-Bold", sans-serif;
+}
+
+.Header-link {
+  font-family: "GoogleSans-Bold", sans-serif;
+  padding-left: 17px;
+  padding-right: 17px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 15px;
+  color: #8bb1b6;
+  /* color: rgb(255, 103, 103); */
+  /* color: #A1CEC7; */
+  text-decoration: none;
+}
+
+.NavLink {
+  font-family: "Montserrat", sans-serif;
+  padding: 26px 40px;
+  font-size: 13px;
+  color: #a1cec7;
+  text-decoration: none;
+}
