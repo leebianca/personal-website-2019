@@ -1,0 +1,38 @@
+{
+  "files": {
+    "main.css": "/static/css/main.54c86388.chunk.css",
+    "main.js": "/static/js/main.00b861d4.chunk.js",
+    "main.js.map": "/static/js/main.00b861d4.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.1c839136.js",
+    "runtime-main.js.map": "/static/js/runtime-main.1c839136.js.map",
+    "static/js/2.d8c0207c.chunk.js": "/static/js/2.d8c0207c.chunk.js",
+    "static/js/2.d8c0207c.chunk.js.map": "/static/js/2.d8c0207c.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.967e62dba51390e2760af6fc75415c19.js": "/precache-manifest.967e62dba51390e2760af6fc75415c19.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.54c86388.chunk.css.map": "/static/css/main.54c86388.chunk.css.map",
+    "static/js/2.d8c0207c.chunk.js.LICENSE": "/static/js/2.d8c0207c.chunk.js.LICENSE",
+    "static/media/Resume.pdf": "/static/media/Resume.1569867b.pdf",
+    "static/media/actransit-branding.png": "/static/media/actransit-branding.fb4a5bb4.png",
+    "static/media/actransit-mockups.png": "/static/media/actransit-mockups.3eef1719.png",
+    "static/media/actransit-personas.png": "/static/media/actransit-personas.c639eb06.png",
+    "static/media/actransit-signclose.png": "/static/media/actransit-signclose.3aef6a79.png",
+    "static/media/actransit-signfar.png": "/static/media/actransit-signfar.c276264a.png",
+    "static/media/actransit.png": "/static/media/actransit.a9db8dbf.png",
+    "static/media/flavorbox.png": "/static/media/flavorbox.e8a79b7b.png",
+    "static/media/headshot.jpg": "/static/media/headshot.3f3ebe1f.jpg",
+    "static/media/iconbackground.png": "/static/media/iconbackground.11559098.png",
+    "static/media/iconbody.png": "/static/media/iconbody.ff776bd3.png",
+    "static/media/invitation.png": "/static/media/invitation.4d04c5ee.png",
+    "static/media/p5.png": "/static/media/p5.986d2b22.png",
+    "static/media/portal.png": "/static/media/portal.891118c9.png",
+    "static/media/where2meet.png": "/static/media/where2meet.09a2e2d6.png",
+    "static/media/wild.png": "/static/media/wild.aeb0ed53.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.1c839136.js",
+    "static/js/2.d8c0207c.chunk.js",
+    "static/css/main.54c86388.chunk.css",
+    "static/js/main.00b861d4.chunk.js"
+  ]
+}
