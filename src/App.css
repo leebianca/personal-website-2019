@@ -98,18 +98,6 @@ html {
   color: #ffd4a0;
 }
 
-.Hello {
-  display: block;
-  margin-top: 160px;
-  padding-left: 12%;
-  text-align: left;
-  font-family: BrandonGrotesque-Black, sans-serif;
-  font-weight: 900;
-  font-style: normal;
-  font-size: 65px;
-  color: #ffb29d;
-}
-
 .intro {
   display: block;
   margin-left: 12%;
@@ -162,4 +150,8 @@ html {
 
 .Footer-link {
   margin: 50px;
+}
+
+.work-container {
+  padding-top: 100px;
 }

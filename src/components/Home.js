@@ -38,7 +38,7 @@ class Home extends Component {
           </div>
         </div>
         <Landing />
-        <div id="work">
+        <div className="work-container">
           <Projects id="work" />
         </div>
       </div>

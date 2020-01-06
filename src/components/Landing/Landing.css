@@ -1,6 +1,15 @@
-.container {
+.landing-container {
   width: 90%;
   display: flex;
+  flex-direction: row;
+}
+
+.landing-text {
+  width: 60%;
+  height: 250px;
+  margin-top: 210px;
+  margin-left: 10%;
+  display: block;
 }
 
 .text {
@@ -21,7 +30,7 @@
 .icon-background {
   position: absolute;
   top: 27%;
-  left: 650px;
+  left: 680px;
   width: 42%;
   z-index: -1;
 }
@@ -33,15 +42,6 @@
   left: 850px;
 }
 
-/* .icon-body {
-    position: relative;
-    width: 53%;
-    top: 180px;
-    left: 140px;
-    margin-left: auto;
-    margin-right: auto;
-  } */
-
 .laptop {
   position: absolute;
   width: 12%;
@@ -49,6 +49,16 @@
   left: 780px;
   margin-left: auto;
   margin-right: auto;
+}
+
+.Hello {
+  display: block;
+  text-align: left;
+  font-family: BrandonGrotesque-Black, sans-serif;
+  font-style: normal;
+  font-size: 46px;
+  color: #ffb29d;
+  margin: 0;
 }
 
 .translate {

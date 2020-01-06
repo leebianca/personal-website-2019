@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { HashRouter, Route } from "react-router-dom";
+import { BrowserRouter as Router, Route } from "react-router-dom";
 
 import "./App.css";
 import resume from "./assets/Resume.pdf";
@@ -12,7 +12,7 @@ import ACTransit from "./components/ACTransit/ACTransit";
 class App extends Component {
   render() {
     return (
-      <HashRouter basename="/">
+      <Router>
         <div className="App">
           <Route exact path="/" component={Home} />
           <Route path="/about" component={About} />
@@ -21,7 +21,7 @@ class App extends Component {
             <Footer id="contact" />
           </div>
         </div>
-      </HashRouter>
+      </Router>
     );
   }
 }
