@@ -1,27 +1,39 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "52508b4d1ad664c07458d674efdbc4b2",
+    "revision": "793217bffb52778ef7604d58c289faab",
     "url": "/index.html"
   },
   {
-    "revision": "14ef7568289551629289",
-    "url": "/static/css/main.687f631c.chunk.css"
+    "revision": "b36bc1f40dc2ef23cf59",
+    "url": "/static/css/main.3f2b7b70.chunk.css"
   },
   {
-    "revision": "b80f878ed36afa3644f5",
-    "url": "/static/js/2.3706ded8.chunk.js"
+    "revision": "2eb113641b9213d54e45",
+    "url": "/static/js/2.68f29705.chunk.js"
   },
   {
     "revision": "932d08ff7f7beff0c90e2bbe30b47367",
-    "url": "/static/js/2.3706ded8.chunk.js.LICENSE"
+    "url": "/static/js/2.68f29705.chunk.js.LICENSE"
   },
   {
-    "revision": "14ef7568289551629289",
-    "url": "/static/js/main.2dac8215.chunk.js"
+    "revision": "b36bc1f40dc2ef23cf59",
+    "url": "/static/js/main.56dd602f.chunk.js"
   },
   {
     "revision": "446a128afbda3a916fcb",
     "url": "/static/js/runtime-main.1c839136.js"
+  },
+  {
+    "revision": "c10f15f179ff812edfa4ab94cb5e7652",
+    "url": "/static/media/Brandon_blk.c10f15f1.otf"
+  },
+  {
+    "revision": "4457817ac2b9993c65e81aa05828fe9c",
+    "url": "/static/media/GoogleSans-Bold.4457817a.ttf"
+  },
+  {
+    "revision": "b5c77a6aed75cdad9489effd0d5ea411",
+    "url": "/static/media/GoogleSans-Regular.b5c77a6a.ttf"
   },
   {
     "revision": "1569867b842c584f6953b57a4da36da5",
