@@ -5,6 +5,7 @@ import arrow from "../assets/arrow.png";
 import Landing from "./Landing/Landing";
 import resume from "../assets/Resume.pdf";
 import Projects from "./Projects/Projects";
+import { HashLink as Link } from "react-router-hash-link";
 
 class Home extends Component {
   render() {
@@ -16,14 +17,14 @@ class Home extends Component {
           </a>
           <div className="links-container">
             <div className="Header-link-container">
-              <a className="Header-link" href="/about">
+              <a className="Header-link" href="/#/about">
                 about
               </a>
             </div>
             <div className="Header-link-container">
-              <a className="Header-link" href="/#work">
+              <Link className="Header-link" to="/#work">
                 work
-              </a>
+              </Link>
             </div>
             <div className="Header-link-container">
               <a className="Header-link" href={resume}>
@@ -31,9 +32,9 @@ class Home extends Component {
               </a>
             </div>
             <div className="Header-link-container">
-              <a className="Header-link" href="/#contact">
+              <Link className="Header-link" to="/#contact">
                 contact
-              </a>
+              </Link>
             </div>
           </div>
         </div>

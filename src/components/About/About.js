@@ -3,6 +3,7 @@ import "./About.css";
 import resume from "../../assets/Resume.pdf";
 import sr from "../ScrollReveal.js";
 import headshot from "./headshot.jpg";
+import { HashLink as Link } from "react-router-hash-link";
 
 class About extends Component {
   componentDidMount() {
@@ -37,14 +38,14 @@ class About extends Component {
           </a>
           <div className="links-container">
             <div className="Header-link-container">
-              <a className="Header-link active-link" href="/about">
+              <a className="Header-link active-link" href="/#/about">
                 about
               </a>
             </div>
             <div className="Header-link-container">
-              <a className="Header-link" href="/#work">
+              <Link className="Header-link" to="/#work">
                 work
-              </a>
+              </Link>
             </div>
             <div className="Header-link-container">
               <a className="Header-link" href={resume}>
@@ -52,9 +53,9 @@ class About extends Component {
               </a>
             </div>
             <div className="Header-link-container">
-              <a className="Header-link" href="/#contact">
+              <Link className="Header-link" to="/#contact">
                 contact
-              </a>
+              </Link>
             </div>
           </div>
         </div>
@@ -93,14 +94,14 @@ class About extends Component {
               >
                 Innovative Design
               </a>
-              . Last summer, I worked as a frontend software engineer intern
-              at&nbsp;
+              . This summer, I'm excited to be working as a software engineer
+              intern at{" "}
               <a
-                href="https://www.letseat.company/"
+                href="https://www.facebook.com/careers/areas-of-work/engineering/?teams[0]=Software%20Engineering"
                 target="_blank"
                 className="text"
               >
-                Let's Eat!
+                Facebook
               </a>
               .
               <br />

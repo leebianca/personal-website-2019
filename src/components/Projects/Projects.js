@@ -37,7 +37,7 @@ class Projects extends Component {
               alt="where2meet"
             />
           </a>
-          <a href="/ac-transit">
+          <a href="/#/ac-transit">
             <Project
               projecttitle="AC Transit Redesign"
               description="Conducted user research and redesigned the user experience for AC Transit, the public transportation system serving the East Bay of the San Francisco Area. Created in collaboration with Carolyn Duan and Jago Pang"

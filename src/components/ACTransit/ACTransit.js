@@ -6,6 +6,7 @@ import signsclose from "../../assets/actransit-signclose.png";
 import signsfar from "../../assets/actransit-signfar.png";
 import mockups from "../../assets/actransit-mockups.png";
 import resume from "../../assets/Resume.pdf";
+import { HashLink as Link } from "react-router-hash-link";
 
 class ACTransit extends Component {
   render() {
@@ -17,14 +18,14 @@ class ACTransit extends Component {
           </a>
           <div className="links-container">
             <div className="Header-link-container">
-              <a className="Header-link" href="/about">
+              <a className="Header-link" href="/#/about">
                 about
               </a>
             </div>
             <div className="Header-link-container">
-              <a className="Header-link active-link" href="/#work">
+              <Link className="Header-link active-link" href="/#work">
                 work
-              </a>
+              </Link>
             </div>
             <div className="Header-link-container">
               <a className="Header-link" href={resume}>
@@ -32,9 +33,9 @@ class ACTransit extends Component {
               </a>
             </div>
             <div className="Header-link-container">
-              <a className="Header-link" href="/#contact">
+              <Link className="Header-link" href="/#contact">
                 contact
-              </a>
+              </Link>
             </div>
           </div>
         </div>
