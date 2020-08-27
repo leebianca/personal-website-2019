@@ -5,7 +5,7 @@ import branding from "../../assets/actransit-branding.png";
 import signsclose from "../../assets/actransit-signclose.png";
 import signsfar from "../../assets/actransit-signfar.png";
 import mockups from "../../assets/actransit-mockups.png";
-import resume from "../../assets/Resume.pdf";
+import resume from "../../assets/BiancaLeeResume.pdf";
 import { HashLink as Link } from "react-router-hash-link";
 
 class ACTransit extends Component {
@@ -28,7 +28,7 @@ class ACTransit extends Component {
               </Link>
             </div>
             <div className="Header-link-container">
-              <a className="Header-link" href={resume}>
+              <a className="Header-link" href={resume} target="blank">
                 resumé
               </a>
             </div>

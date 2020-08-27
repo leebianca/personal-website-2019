@@ -1,7 +1,6 @@
 @import url("https://fonts.googleapis.com/css?family=Lora|Montserrat:400,700,800");
 
 .Projects {
-  margin-top: 200px;
   animation: fadein 8s;
   -webkit-animation: fadein 8s;
 }

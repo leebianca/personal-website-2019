@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import resume from "../../assets/Resume.pdf";
+import resume from "../../assets/BiancaLeeResume.pdf";
 import "./Header.css";
 
 class Header extends Component {
@@ -17,7 +17,7 @@ class Header extends Component {
           </a>
         </div>
         <div className="Header-link-container">
-          <a className="Header-link" href={resume}>
+          <a className="Header-link" href={resume} target="blank">
             resumé
           </a>
         </div>

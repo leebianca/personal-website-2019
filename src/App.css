@@ -2,6 +2,7 @@
 
 .App {
   padding-top: 50px;
+  min-width: 599px;
 }
 
 html {
@@ -56,8 +57,16 @@ html {
 .top {
   display: flex;
   flex-direction: row;
+  margin: 0 5%;
   align-items: center;
   justify-content: space-between;
+}
+
+@media (max-width: 799px) {
+  .top {
+    align-items: left;
+    flex-direction: column;
+  }
 }
 
 .bounce {
@@ -85,7 +94,6 @@ html {
 
 .bianca {
   text-align: left;
-  margin-left: 5%;
   /* margin-top: 50px; */
   font-family: BrandonGrotesque-Black, sans-serif;
   font-weight: 900;
@@ -150,8 +158,4 @@ html {
 
 .Footer-link {
   margin: 50px;
-}
-
-.work-container {
-  margin-top: 100px;
 }

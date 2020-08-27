@@ -1,9 +1,8 @@
 import React, { Component } from "react";
 
 import "../App.css";
-import arrow from "../assets/arrow.png";
 import Landing from "./Landing/Landing";
-import resume from "../assets/Resume.pdf";
+import resume from "../assets/BiancaLeeResume.pdf";
 import Projects from "./Projects/Projects";
 import { HashLink as Link } from "react-router-hash-link";
 
@@ -27,7 +26,7 @@ class Home extends Component {
               </Link>
             </div>
             <div className="Header-link-container">
-              <a className="Header-link" href={resume}>
+              <a className="Header-link" href={resume} target="blank">
                 resumé
               </a>
             </div>

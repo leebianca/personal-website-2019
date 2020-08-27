@@ -18,13 +18,13 @@ class Landing extends Component {
               blink: true,
               element: "🖍",
               hideWhenDone: true,
-              hideWhenDoneDelay: 0
+              hideWhenDoneDelay: 0,
             }}
           >
-            <h3 className="Hello">food enthusiast</h3>
-            <Typist.Backspace count={20} delay={900} />
             <h3 className="Hello">designer and developer</h3>
             <Typist.Backspace count={30} delay={900} />
+            <h3 className="Hello">proud owner of crocs</h3>
+            <Typist.Backspace count={20} delay={900} />
             <h3 className="Hello">fan of pastel colors</h3>
             <Typist.Backspace count={20} delay={900} />
             <h3 className="Hello">student at UC Berkeley</h3>

@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import "./About.css";
-import resume from "../../assets/Resume.pdf";
+import resume from "../../assets/BiancaLeeResume.pdf";
 import sr from "../ScrollReveal.js";
 import headshot from "./headshot.jpg";
 import { HashLink as Link } from "react-router-hash-link";
@@ -13,7 +13,7 @@ class About extends Component {
       delay: 100,
       distance: "60px",
       scale: 1,
-      easing: "ease"
+      easing: "ease",
     };
 
     const textConfig = {
@@ -22,7 +22,7 @@ class About extends Component {
       delay: 100,
       distance: "60px",
       scale: 1,
-      easing: "ease"
+      easing: "ease",
     };
 
     sr.reveal(this.refs.headshot, headshotConfig);
@@ -48,7 +48,7 @@ class About extends Component {
               </Link>
             </div>
             <div className="Header-link-container">
-              <a className="Header-link" href={resume}>
+              <a className="Header-link" href={resume} target="blank">
                 resumé
               </a>
             </div>
@@ -69,12 +69,12 @@ class About extends Component {
           <div className="about-text" ref="abouttext">
             <div className="About-title">Nice to meet you!</div>
             <p className="Personal-intro">
-              I'm a second-year undergrad studying Computer Science at UC
-              Berkeley. I'm fascinated with building and designing platforms
-              that bring people together and make people happy.
+              I'm a third-year undergrad studying Computer Science (remotely 😭)
+              at UC Berkeley. I'm fascinated with building and designing
+              platforms that bring people together and make people happy.
               <br />
               <br />
-              On campus, you can find me as a software developer with{" "}
+              On campus, you can find me as a project manager with{" "}
               <a
                 href="https://codebase.berkeley.edu"
                 target="_blank"
@@ -94,19 +94,18 @@ class About extends Component {
               >
                 Innovative Design
               </a>
-              . This summer, I'm excited to be working as a software engineer
-              intern at{" "}
+              . This past summer, I was a software engineer intern at{" "}
               <a
                 href="https://www.facebook.com/careers/areas-of-work/engineering/?teams[0]=Software%20Engineering"
                 target="_blank"
                 className="text"
               >
                 Facebook
-              </a>
-              .
+              </a>{" "}
+              working on UI components for the new Facebook website.
               <br />
               <br />
-              In my free time, I enjoy shopping for stationery,{" "}
+              In my free time, I enjoy embroidering,{" "}
               <a
                 href="https://airtable.com/shrbvZFU7357K39mD"
                 target="_blank"
@@ -114,7 +113,8 @@ class About extends Component {
               >
                 reading
               </a>
-              , traveling, and adding to my extensive list of{" "}
+              , trying out new coffee brewing methods, and adding to my
+              extensive list of{" "}
               <a
                 href="https://biancalee.yelp.com"
                 target="_blank"
@@ -125,7 +125,7 @@ class About extends Component {
               reviews.
               <br />
               <br />
-              Reach out to me if you wanna talk about anything – whether it be
+              Reach out to me if you wanna talk about anything—whether it be
               food recommendations, the latest Disney live-action remakes, or
               the best/worst design choices you've ever seen :-)
             </p>

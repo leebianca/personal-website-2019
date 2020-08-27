@@ -5,6 +5,7 @@ import sr from "../ScrollReveal.js";
 import linkedin from "./linkedin.png";
 import github from "./github.png";
 import behance from "./behance.png";
+import goodreads from "./goodreads.png";
 
 class Footer extends Component {
   componentDidMount() {
@@ -14,7 +15,7 @@ class Footer extends Component {
       delay: 100,
       distance: "30px",
       scale: 1,
-      easing: "ease"
+      easing: "ease",
     };
 
     sr.reveal(this.refs.footer, config);
@@ -43,6 +44,12 @@ class Footer extends Component {
           </a>
           <a href="https://www.behance.net/biancalee" target="_blank">
             <img className="link" src={behance} alt="behance" />
+          </a>
+          <a
+            href="https://www.goodreads.com/user/show/101862765-bianca-lee"
+            target="_blank"
+          >
+            <img className="link" src={goodreads} alt="goodreads" />
           </a>
         </div>
       </div>

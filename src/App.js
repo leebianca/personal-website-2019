@@ -2,7 +2,6 @@ import React, { Component } from "react";
 import { HashRouter as Router, Route, Switch } from "react-router-dom";
 
 import "./App.css";
-import resume from "./assets/Resume.pdf";
 import Home from "./components/Home";
 import About from "./components/About/About";
 import Header from "./components/Header/Header";
