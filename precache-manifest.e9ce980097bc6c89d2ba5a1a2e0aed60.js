@@ -1,27 +1,31 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "b264b7d18e56851fad255a341a0cf874",
+    "revision": "39154348775b0e5c3a369fd393ccc6bd",
     "url": "/index.html"
   },
   {
-    "revision": "6bf23592cec1fbe35665",
-    "url": "/static/css/main.d01b0fcf.chunk.css"
+    "revision": "5e11ed83102c20bd5184",
+    "url": "/static/css/main.e67ee43e.chunk.css"
   },
   {
-    "revision": "ecd87c333eaee8baa4b3",
-    "url": "/static/js/2.bf659239.chunk.js"
+    "revision": "e1fce53136f355d7bff5",
+    "url": "/static/js/2.56601cc1.chunk.js"
   },
   {
-    "revision": "932d08ff7f7beff0c90e2bbe30b47367",
-    "url": "/static/js/2.bf659239.chunk.js.LICENSE"
+    "revision": "1715dbd6c15ebe07c38029ebdb879805",
+    "url": "/static/js/2.56601cc1.chunk.js.LICENSE"
   },
   {
-    "revision": "6bf23592cec1fbe35665",
-    "url": "/static/js/main.db54f7b4.chunk.js"
+    "revision": "5e11ed83102c20bd5184",
+    "url": "/static/js/main.073a6aad.chunk.js"
   },
   {
     "revision": "446a128afbda3a916fcb",
     "url": "/static/js/runtime-main.1c839136.js"
+  },
+  {
+    "revision": "dc170d317b5b2d3d894b56736c78df51",
+    "url": "/static/media/BiancaLeeResume.dc170d31.pdf"
   },
   {
     "revision": "c10f15f179ff812edfa4ab94cb5e7652",
@@ -34,10 +38,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "b5c77a6aed75cdad9489effd0d5ea411",
     "url": "/static/media/GoogleSans-Regular.b5c77a6a.ttf"
-  },
-  {
-    "revision": "1569867b842c584f6953b57a4da36da5",
-    "url": "/static/media/Resume.1569867b.pdf"
   },
   {
     "revision": "fb4a5bb46381660dfc52977d4088bb2b",
@@ -66,6 +66,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "e8a79b7ba2e395040d84a8ca4f366006",
     "url": "/static/media/flavorbox.e8a79b7b.png"
+  },
+  {
+    "revision": "7233be96f9a85709467ee368dfeecd1c",
+    "url": "/static/media/goodreads.7233be96.png"
   },
   {
     "revision": "3f3ebe1f1efde93ca38116dbf6928be3",
